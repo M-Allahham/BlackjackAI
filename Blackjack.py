@@ -1,26 +1,3 @@
-'''
-PURPOSE:
-    Simulate blackjack playing with n players against a dealer
-AUTHOR:
-    Malik Allahham
-    
-    
-State:
-    Components of the game that matter and affect the chance of winning:
-        Our cards (Ace)
-        Dealer card (that we can see)
-
-Action:
-    HIT
-    STAND
-
-Reward:
-    (Doubled for double)
-    Winning +1
-    Losing -1
-    Drawing +0
-    
-'''
 import numpy as np
 import pickle
 import random
